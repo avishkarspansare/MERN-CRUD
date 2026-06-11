@@ -4,7 +4,7 @@ import axios from "axios";
 function App() {
 
   const API =
-    "https://your-render-backend-url.onrender.com/students";
+    "https://mern-crud-u216.onrender.com/students";
 
   const [students, setStudents] = useState([]);
   const [name, setName] = useState("");
